@@ -44,7 +44,7 @@ public List<Bean> generateTestCase(int seed, int numberOfTestCase){
 
 ​		Bean bean =new Bean();
 
-​		bean.setvariables(ID, 		airlineType,cabinClass,passagerCategory,baggageWeight);
+​		bean.setvariables(ID, airlineType,cabinClass,passagerCategory,baggageWeight);
 
 ​		tempbeans.add(bean);
 
