@@ -21,8 +21,7 @@ We developed *ACMS*, *CUBS*, and *PBS* according to real-life specification, and
 
 We made use of random testing technique to generate test cases for *ACMS*, *CUBS*, and *PBS*. In the *test pool* directory, we have developed scripts for generating test cases.  For instance, the main method of script generating test cases for *ACMS*   is named "generateTestcases", which is shown as follow.
 
-``
-
+```java
 public List<Bean> generateTestCase(int seed, int numberOfTestCase){
 
 ​	Random random = new Random(seed);
@@ -54,7 +53,6 @@ public List<Bean> generateTestCase(int seed, int numberOfTestCase){
 ​	return tempbeans;
 
 }
-
-``
+```
 
 The *seed* parameter is used for generating test cases; And the *numberOfTestCase* represents the number of test cases that will be generated.
